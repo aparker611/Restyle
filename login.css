@@ -1,0 +1,74 @@
+div.header{
+  padding-top: 0px !important;
+  height: 60px;
+  width: 100%;
+	position: fixed;
+	background-color: grey;
+	color: white;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.5);
+	z-index: 999999;
+	border: 0;
+  margin-top: -70px;
+}
+
+.nav-container {
+  margin: 0;
+  height: 70px;
+}
+
+img#profile-img{
+  width: 70px;
+  height: 50px;
+  border-radius: 25%;
+  float: left;
+}
+
+img#profile-img:hover {
+  cursor: pointer;
+}
+
+#title {
+  margin-top: 1%;
+  position: relative;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  left: 35%;
+}
+
+p#salary {
+  position: relative;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  margin-top: 1%;
+}
+
+.profile-drop{
+  position: fixed;
+  display: none;
+  margin: 0;
+  list-style: none;
+  background-color: #8c8c8c;
+  width: 5%;
+  border-radius: 20%;
+  font-size: 1.5em;
+  top: 50px;
+  height: 240px;
+}
+
+#profilelist-item{
+  line-height: 1.5em;
+  text-align: left;
+  margin: 0;
+  left: 0;
+  color: white;
+  text-decoration: none;
+}
+
+#ddd{
+  padding-bottom: 10000px;
+}

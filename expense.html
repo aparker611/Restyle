@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>StormHome</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" type="text/css" href="expense.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="login.js"></script>
+</head>
+
+<body><div class="nav-container"></div>
+  <div class="header">
+    <p id="salary"> Remaining Salary: 1397</p>
+    <img src="images/profile.jpg" id="profile-img">
+    <ul class="profile-drop">
+      <li><a href="#" id="profilelist-item">Profile</a></li>
+      <li><a href="#" id="profilelist-item">Settings</a></li>
+      <li><a href="#" id="profilelist-item">Log out</a></li>
+    </ul>
+    <div>
+      <a href="#" id="title"><h2 id="title">StormTracker</h2></a>
+    </div>
+  </div>
+  <h2 id="expense-title-header">This months expenses</h2>
+    <div class="expense-container">
+      <div id="expense-header">
+        <div id="exp-id-header">ID</div>
+        <div id="exp-name-header">Title</div>
+        <div id="exp-desc-header">Description</div>
+        <div id="exp-status-header">Status</div>
+      </div>
+
+      <div id="expense">
+        <div id="exp-id">1</div>
+        <div id="exp-name">Company car insurance</div>
+        <div id="exp-desc">This was transferred to my bank for some reason</div>
+        <div id="exp-status">Reimbursed</div>
+      </div>
+
+      <div id="expense">
+        <div id="exp-id">2</div>
+        <div id="exp-name">Company build insurance</div>
+        <div id="exp-desc">123456789012345678901234567890123456789012</div>
+        <div id="exp-status">waiting confirmation</div>
+      </div>
+
+      <div id="expense">
+        <div id="exp-id">3</div>
+        <div id="exp-name">far car insurance</div>
+        <div id="exp-desc">The far car insurance for the company.</div>
+        <div id="exp-status">Refused</div>
+      </div>
+    </div>
+</body>
+</html>
